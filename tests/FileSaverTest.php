@@ -2,8 +2,9 @@
 
 use Mayoturis\Properties\FileSaver;
 use Mayoturis\Properties\VariableProcessor;
+use PHPUnit\Framework\TestCase;
 
-class FileSaverTest extends PHPUnit_Framework_TestCase {
+class FileSaverTest extends TestCase {
 	public function test_createOutputWithMap() {
 		$saver = new FileSaver(new VariableProcessor());
 

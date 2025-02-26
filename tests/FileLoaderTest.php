@@ -2,8 +2,9 @@
 
 use Mayoturis\Properties\FileLoader;
 use Mayoturis\Properties\VariableProcessor;
+use PHPUnit\Framework\TestCase;
 
-class FileLoaderTest extends PHPUnit_Framework_TestCase {
+class FileLoaderTest extends TestCase {
 
 	public function test_getArrayFromLines() {
 		$fileLoader = new FileLoader(new VariableProcessor());

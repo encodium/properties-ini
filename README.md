@@ -1,17 +1,11 @@
 # PHP configuration writer and reader
 Allows to get and set configuration variables stored in ini-like (or java .properties) files
 
-### Installation with composer
-`composer require mayoturis/properties-ini`
+Forked and updated to support PHP 8.x.
 
-or 
-```javascript
-{
-    "require": {
-        "mayoturis/properties-ini": "1.0"
-    }
-}
-```
+### Installation with composer
+`composer require revolutionparts/properties-ini`
+
 ### Usage
 ####Basic Example
 ```php

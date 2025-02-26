@@ -1,6 +1,8 @@
 <?php
 
-class RepositoryTest extends PHPUnit_Framework_TestCase {
+use PHPUnit\Framework\TestCase;
+
+class RepositoryTest extends TestCase {
 	public function test_get_should_load_file_once_and_get_correct_value() {
 		$loader = $this->createLoaderMock();
 		$saver = $this->createSaverMock();
