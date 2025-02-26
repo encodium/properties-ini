@@ -31,5 +31,8 @@
     "psr-4": {
       "Mayoturis\\Properties\\": "src/"
     }
+  },
+  "replace": {
+    "mayoturis/properties-ini": "*"
   }
 }
